@@ -19,7 +19,7 @@ The objective of this project was to:
 
 ### Artificial Neural Network (ANN)
 
-* Input: Extracted features (color histograms, texture descriptors)
+* Input: Extracted features (Edges using Sobel,color histograms using HSV)
 * Two hidden layers with ReLU activations and Dropout regularization
 * Output layer: one neuron per class
 * Loss: CrossEntropyLoss
@@ -45,5 +45,4 @@ The objective of this project was to:
 * Feature extraction significantly reduced ANN complexity (from 1.6M → 20K parameters).
 * CNNs generalized better on spatially complex datasets such as COIL-100.
 * ANNs performed well on simpler patterns when properly regularized.
-* Each component (BatchNorm, Dropout, Pooling) is critical for stable training.
-* CNNs required more computation but could be optimized with architectures like MobileNet or EfficientNet.
+
