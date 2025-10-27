@@ -2,8 +2,8 @@
 
 # Comparing ANN and CNN on EuroSAT and COIL-100 Datasets
 
-This project investigates and compares the performance of an **Artificial Neural Network (ANN)** and a **Convolutional Neural Network (CNN)** using two distinct image datasets — **EuroSAT** and **COIL-100** — implemented in **PyTorch**.
-The work was carried out as part of the course *DVA476 – Deep Learning for Industrial Imaging* at Mälardalen University.
+This project investigates and compares the performance of an Artificial Neural Network (ANN) and a Convolutional Neural Network (CNN)using two distinct image datasets — EuroSAT and COIL-100 — implemented in PyTorch.
+The work was carried out as part of the course DVA476 – Deep Learning for Industrial Imaging at Mälardalen University.
 
 
 ## Overview
